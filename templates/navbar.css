@@ -1,0 +1,40 @@
+.fir-header {
+  background-color: rgb(139, 97, 34);
+  height: 11vh;
+  width: 1600px;
+  margin: -100px 0 0 -8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+.navs {
+  margin-top: -60px;
+  text-align: right;
+  margin-right: 50px;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px 20px;
+  margin-top: 13%;
+}
+.navs a {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  text-decoration: none;
+}
+.navs a:hover {
+  color: rgb(214, 207, 181);
+}
+@font-face {
+  font-family: main-logo;
+  src: url(fonts/Speed_Normal.ttf);
+}
+.logo h1 {
+  color: aliceblue;
+  font-size: 60px;
+  margin-top: 45px;
+  margin-left: 50px;
+}
